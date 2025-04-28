@@ -16,10 +16,6 @@ class Hewan{
         cout << "masukan umur = " << endl;
         cin >> umur;
     }
-
-    void TampilHewan(){
-        cout << "jeniskelaminnya adalah " << jeniskelamin << endl;
-    }
 };
 
 int main(){
@@ -27,5 +23,4 @@ int main(){
     ambon.InputData();
     cout << "umurnya adalah " << ambon.umur << endl;
     cout << "tipenya adalah " << ambon.tipe << endl;
-    ambon.TampilHewan();
 }
